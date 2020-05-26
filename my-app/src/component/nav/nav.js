@@ -1,6 +1,9 @@
 import React from "react";
 import './nav.css';
 
+// This is where I am having my issue, I would like to have the nav link to the artSection 
+// div under the art component 
+
 
 class nav extends React.Component {
 
