@@ -21,6 +21,18 @@
 
 /* Tablet View */
 @media (min-width: 768px) and (max-width: 991px) {
+  .title {
+    margin-top: 55%;
+    margin-bottom: 25%;
+    font-size: 150px;
+    letter-spacing: 35px;
+    text-align: center;
+    color: white;
+  }
+  .icons {
+    height: 50px;
+    width: 50px;
+  }
 }
 
 /* Desktop */

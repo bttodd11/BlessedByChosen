@@ -1,0 +1,35 @@
+/* Portrait View */
+@media (min-width: 320px) and (max-width: 450px) { 
+   .collectionText{
+      text-align: center;
+      margin-top: 5%;
+   }
+  .collectionSection{
+     margin-left: 20%;
+     margin-top: 5%;
+  }
+
+ } 
+ 
+ /* Landscape View */
+  @media (min-width: 568px) and (max-width: 812px) {
+ 
+ } 
+ 
+ /* Tablet View */
+ @media (min-width: 768px) and (max-width: 991px) {
+ 
+ }
+ 
+ /* Desktop */
+  @media (min-width: 992px){
+   .collectionText{
+      text-align: center;
+      margin-top: 5%;
+   }
+  .collectionSection{
+     margin-top: 5%;
+     width: 100%;
+     text-align: center;
+  }
+ } 
