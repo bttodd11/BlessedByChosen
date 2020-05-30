@@ -1,24 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './app';
 import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
-import Nav from './component/nav/nav';
-import Title from './component/title/title';
-import Music from './component/music/music';
-import Art from './component/art/art';
 import * as serviceWorker from './serviceWorker';
 
 // create-react-component nav -s css
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className="hero">
-    <Nav />
-    <Title />
-    <Music />
-    <Art />
-    </div>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

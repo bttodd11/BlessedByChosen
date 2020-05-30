@@ -5,9 +5,9 @@ import './nav.css';
 // div under the art component 
 
 
-class nav extends React.Component {
+const nav = (props) =>{
+  const { ScrollTo } = props;
 
-  render() {
     return (
       <div classBar="navBar">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -17,14 +17,14 @@ class nav extends React.Component {
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-item nav-link text-white" href="window.location#artSection">Music</a>
-              <a class="nav-item nav-link text-white" href="#artSection">Collections</a>
+              <a class="nav-item nav-link text-white" id="music" onClick={(e) => ScrollTo(e)} data-pageSection="music">Music</a>
+              <a class="nav-item nav-link text-white" id="collections" onClick={(e) => ScrollTo(e)} data-pageSection="collections">Collections</a>
             </div>
           </div>
         </nav>
       </div>
-    )
+    );
   }
-}
+
 
 export default nav;
