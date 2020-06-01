@@ -4,12 +4,15 @@
    justify-content: center;
    align-items: center;
   }
+  .musicTitle {
+   text-align: center;
+}
 /* Portrait View */
 @media (min-width: 320px) and (max-width: 450px) {
    iframe {
       width: 100%;
    }
-   #musicSection {
+   .musicSection {
       margin-top: 15%;
    }
    .musicTitle {
@@ -28,18 +31,15 @@
    iframe {
       width: 100%;
    }
-   #musicSection {
+   .musicSection {
       margin-top: 20%;
    }
 }
 
 /* Desktop */
 @media (min-width: 992px) {
-  #musicSection {
-     margin-top: 5%;
-  }
-  .musicTitle {
-     text-align: center;
+  .musicSection {
+     margin-top: 10%;
   }
 
 }

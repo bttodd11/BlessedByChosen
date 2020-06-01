@@ -4,7 +4,7 @@ import './music.css';
 class music extends React.Component {
   render() {
     return (
-      <div id="musicSection">
+      <div id="music" class="musicSection">
         <h1 class="musicTitle">Tunnel Vision</h1>
         <div class="musicContent">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/F-PDQT0lVNw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
