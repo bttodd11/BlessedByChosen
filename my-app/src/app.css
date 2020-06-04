@@ -5,6 +5,7 @@ body {
      sans-serif;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
+   background-color: #484848;
  
  }
  
@@ -24,6 +25,8 @@ body {
      width: 100vw;
      margin: 0;
      padding: 0;
+     background-color: black;
+     background-blend-mode: overlay;
    }
  } 
  
@@ -38,6 +41,8 @@ body {
      width: 100vw;
      margin: 0;
      padding: 0;
+     background-color: black;
+     background-blend-mode: overlay;
    }
  
  } 
@@ -53,6 +58,8 @@ body {
      width: 100vw;
      margin: 0;
      padding: 0;
+     background-color: black;
+     background-blend-mode: overlay;
    }
  
  }
@@ -68,6 +75,8 @@ body {
      width: 100vw;
      margin: 0;
      padding: 0;
+     background-color: #484848;
+     background-blend-mode: multiply;
    }
  
  } 

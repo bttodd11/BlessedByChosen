@@ -1,12 +1,18 @@
+.title{
+  font-family: 'Righteous', cursive;
+}
+
 /* Portrait View */
 @media (min-width: 320px) and (max-width: 450px) {
    .title {
-      margin-top: 70%;
-      margin-bottom: 50%;
+      padding-top: 70%;
+      padding-bottom: 50%;
       font-size: 50px;
       letter-spacing: 25px;
       text-align: center;
       color: white;
+      opacity: .1;
+      
     }
     .icons {
       height: 50px;
@@ -21,12 +27,13 @@
 /* Tablet View */
 @media (min-width: 768px) and (max-width: 991px) {
   .title {
-    margin-top: 55%;
-    margin-bottom: 25%;
+    padding-top: 55%;
+    padding-bottom: 25%;
     font-size: 150px;
     letter-spacing: 35px;
     text-align: center;
     color: white;
+    opacity: .1;
   }
   .icons {
     height: 50px;
@@ -37,12 +44,13 @@
 /* Desktop */
 @media (min-width: 992px) {
   .title {
-    margin-top: 15%;
-    margin-bottom: 10%;
-    font-size: 150px;
+    padding-top: 15%;
+    padding-bottom: 10%;
+    font-size: 250px;
     letter-spacing: 35px;
     text-align: center;
     color: white;
+    opacity: .1;
   }
   .icons {
     height: 40px;

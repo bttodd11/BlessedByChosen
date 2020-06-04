@@ -1,7 +1,15 @@
 /* Global CSS */
+.navbar-brand{
+   color: white;
+   font-family: 'Righteous', cursive;
+   opacity: .3;
+}
 .bg-light {
    background-color: transparent!important;
 }
 .nav-item{
    color: white !important;
+   font-family: 'Righteous', cursive;
+   opacity: .3;
+   
 }

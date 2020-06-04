@@ -16,6 +16,10 @@ class art extends React.Component {
       <h2 class="seriesText">Gif Collection</h2>
       One of three columns
     </div>
+    <div class="col-sm">
+      <h2 class="seriesText">Gif Collection</h2>
+      One of three columns
+    </div>
   </div>
 </div>
     </div>
