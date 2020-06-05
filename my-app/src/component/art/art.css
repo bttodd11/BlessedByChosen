@@ -1,9 +1,19 @@
+.seriesText{
+   font-family: 'Righteous', cursive;
+}
+.artSection{
+   background-color: #484848;
+}
+.collectionText{
+   font-family: 'Righteous', cursive;
+}
+
 /* Portrait View */
 @media (min-width: 320px) and (max-width: 450px) { 
    .collectionText{
       text-align: center;
-      padding-top: 5%;
-      padding-bottom: 15%;
+      padding-top: 10%;
+      padding-bottom: 5%;
    }
   .collectionSection{
      padding-left: 20%;
@@ -39,18 +49,16 @@
  
  /* Desktop */
   @media (min-width: 992px){
-   .artSection{
-      background-color: #484848;
-   }
    .collectionText{
       text-align: center;
       padding-top: 5%;
+      letter-spacing: 10px;
    }
   .collectionSection{
      padding-top: 5%;
      width: 100%;
      text-align: center;
-     background-color: #484848;;
+     background-color: #484848;
   }
   .seriesText{
    padding-bottom: 5%;

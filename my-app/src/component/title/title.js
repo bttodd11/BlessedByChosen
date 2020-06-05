@@ -7,7 +7,7 @@ import './title.css';
 class title extends React.Component {
   render() {
     return (
-      <div>
+      <div className="titleSection">
         <h1 className="title"> Chosen</h1>
         <nav class="navbar navbar-light bg-light ">
           <a class="navbar-brand mx-auto" href="#">

@@ -17,12 +17,14 @@ const scrollTo = e => {
 
 const App = () => {
   return (
+    <body>
     <div className="hero">
       <Nav scrollTo={e => scrollTo(e)} />
       <Title />
       <Music />
       <Art />
     </div>
+    </body>
   );
 };
 
