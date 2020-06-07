@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/BlessedByChosen/static/css/main.b1043ae3.chunk.css",
+    "main.css": "/BlessedByChosen/static/css/main.28eceb57.chunk.css",
     "main.js": "/BlessedByChosen/static/js/main.080e5a4e.chunk.js",
     "main.js.map": "/BlessedByChosen/static/js/main.080e5a4e.chunk.js.map",
     "runtime-main.js": "/BlessedByChosen/static/js/runtime-main.f083f820.js",
@@ -9,10 +9,10 @@
     "static/js/2.1e23a51c.chunk.js": "/BlessedByChosen/static/js/2.1e23a51c.chunk.js",
     "static/js/2.1e23a51c.chunk.js.map": "/BlessedByChosen/static/js/2.1e23a51c.chunk.js.map",
     "index.html": "/BlessedByChosen/index.html",
-    "precache-manifest.2371b77beacf79c2d29b2495464321f0.js": "/BlessedByChosen/precache-manifest.2371b77beacf79c2d29b2495464321f0.js",
+    "precache-manifest.2b9798ef040e90e3b2da8e83aa21120c.js": "/BlessedByChosen/precache-manifest.2b9798ef040e90e3b2da8e83aa21120c.js",
     "service-worker.js": "/BlessedByChosen/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/BlessedByChosen/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.b1043ae3.chunk.css.map": "/BlessedByChosen/static/css/main.b1043ae3.chunk.css.map",
+    "static/css/main.28eceb57.chunk.css.map": "/BlessedByChosen/static/css/main.28eceb57.chunk.css.map",
     "static/js/2.1e23a51c.chunk.js.LICENSE.txt": "/BlessedByChosen/static/js/2.1e23a51c.chunk.js.LICENSE.txt",
     "static/media/app.css": "/BlessedByChosen/static/media/bgLandscape.af8fcfd2.jpg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.f083f820.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.1e23a51c.chunk.js",
-    "static/css/main.b1043ae3.chunk.css",
+    "static/css/main.28eceb57.chunk.css",
     "static/js/main.080e5a4e.chunk.js"
   ]
 }
