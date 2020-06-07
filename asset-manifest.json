@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/BlessedByChosen/my-app/static/css/main.8bee98d0.chunk.css",
+    "main.js": "/BlessedByChosen/my-app/static/js/main.575e5f7b.chunk.js",
+    "main.js.map": "/BlessedByChosen/my-app/static/js/main.575e5f7b.chunk.js.map",
+    "runtime-main.js": "/BlessedByChosen/my-app/static/js/runtime-main.59fa7b3c.js",
+    "runtime-main.js.map": "/BlessedByChosen/my-app/static/js/runtime-main.59fa7b3c.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/BlessedByChosen/my-app/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.1e8b8e50.chunk.js": "/BlessedByChosen/my-app/static/js/2.1e8b8e50.chunk.js",
+    "static/js/2.1e8b8e50.chunk.js.map": "/BlessedByChosen/my-app/static/js/2.1e8b8e50.chunk.js.map",
+    "index.html": "/BlessedByChosen/my-app/index.html",
+    "precache-manifest.cff7cff764f0e0f385c6f8ddaeb8f8af.js": "/BlessedByChosen/my-app/precache-manifest.cff7cff764f0e0f385c6f8ddaeb8f8af.js",
+    "service-worker.js": "/BlessedByChosen/my-app/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/BlessedByChosen/my-app/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.8bee98d0.chunk.css.map": "/BlessedByChosen/my-app/static/css/main.8bee98d0.chunk.css.map",
+    "static/js/2.1e8b8e50.chunk.js.LICENSE.txt": "/BlessedByChosen/my-app/static/js/2.1e8b8e50.chunk.js.LICENSE.txt",
+    "static/media/app.css": "/BlessedByChosen/my-app/static/media/bgLandscape.af8fcfd2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.59fa7b3c.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.1e8b8e50.chunk.js",
+    "static/css/main.8bee98d0.chunk.css",
+    "static/js/main.575e5f7b.chunk.js"
+  ]
+}
