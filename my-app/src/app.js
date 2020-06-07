@@ -21,7 +21,6 @@ const scrollTo = e => {
 const App = () => {
 
   const [loader, setLoader ] = useState(false);
-  
   return (
     <body>
     <div className="hero">
