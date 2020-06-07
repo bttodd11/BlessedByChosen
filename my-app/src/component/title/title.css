@@ -1,18 +1,20 @@
 .title{
   font-family: 'Righteous', cursive;
 }
+.titleSection{
+  height: 100vh;
+}
 
 /* Portrait View */
-@media (min-width: 320px) and (max-width: 450px) {
+@media (min-width: 315px) and (max-width: 450px) {
    .title {
       padding-top: 70%;
-      padding-bottom: 50%;
-      font-size: 80px;
+      padding-bottom: 30%;
+      font-size: 70px;
       letter-spacing: 25px;
       text-align: center;
       color: white;
       opacity: .1;
-      
     }
     .icons {
       height: 40px;
@@ -21,13 +23,26 @@
 }
 
 /* Landscape View */
-@media (min-width: 568px) and (max-width: 812px) {
+@media (min-width: 568px) and (max-width: 824px) {
+  .title {
+    padding-top: 15%;
+    padding-bottom: 5%;
+    font-size: 70px;
+    letter-spacing: 35px;
+    text-align: center;
+    color: white;
+    opacity: .1;
+  }
+  .icons {
+    height: 30px;
+    width: 30px;
+  }
 }
 
 /* Tablet View */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 825px) and (max-width: 991px) {
   .title {
-    padding-top: 55%;
+    padding-top: 35%;
     padding-bottom: 15%;
     font-size: 150px;
     letter-spacing: 35px;
@@ -44,7 +59,8 @@
 /* Desktop */
 @media (min-width: 992px) {
   .title {
-    padding-top: 15%;
+    padding-top: 10%;
+    padding-bottom: 4%;
     font-size: 250px;
     letter-spacing: 35px;
     text-align: center;

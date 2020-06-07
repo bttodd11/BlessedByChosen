@@ -7,6 +7,7 @@
   .musicTitle {
    text-align: center;
    font-family: 'Righteous', cursive;
+   letter-spacing: 10px;
 }
 .musicSection {
    background-color: #484848;
@@ -16,9 +17,6 @@
    iframe {
       width: 100%;
    }
-   .musicSection {
-      padding-top: 5%;
-   }
    .musicTitle {
       text-align: center;
       padding-bottom: 5%;
@@ -27,11 +25,14 @@
 }
 
 /* Landscape View */
-@media (min-width: 568px) and (max-width: 812px) {
+@media (min-width: 568px) and (max-width: 824px) {
+   .musicSection {
+  
+   }
 }
 
 /* Tablet View */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 825px) and (max-width: 991px) {
    iframe {
       width: 100%;
    }
