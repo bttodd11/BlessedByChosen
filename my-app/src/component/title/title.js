@@ -4,8 +4,7 @@ import Instagram from './img/insta.png';
 import Email from './img/emailPng.png';
 import './title.css';
 
-class title extends React.Component {
-  render() {
+const title = () => {
     return (
       <div className="titleSection">
         <h1 className="title"> Chosen</h1>
@@ -19,7 +18,7 @@ class title extends React.Component {
     </div>
     )
   }
-}
+
 
 export default title;
 

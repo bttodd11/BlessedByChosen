@@ -23,7 +23,7 @@
 }
 
 /* Landscape View */
-@media (min-width: 568px) and (max-width: 824px) {
+@media (min-width: 568px) and (max-width: 739px) {
   .title {
     padding-top: 15%;
     padding-bottom: 2%;
@@ -34,13 +34,13 @@
     opacity: .1;
   }
   .icons {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
   }
 }
 
 /* Tablet View */
-@media (min-width: 825px) and (max-width: 991px) {
+@media (min-width: 740px) and (max-width: 991px) {
   .title {
     padding-top: 35%;
     padding-bottom: 15%;

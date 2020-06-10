@@ -1,8 +1,7 @@
 import React    from "react";
 import './art.css';
 
-class art extends React.Component {
-  render() {
+const art = () => {
     return (
     <div class="artSection" id="collections">
 <h1 class="collectionText">Collections</h1>
@@ -24,7 +23,6 @@ class art extends React.Component {
 </div>
     </div>
     )
-  }
 }
 
 export default art;

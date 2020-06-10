@@ -1,8 +1,7 @@
 import React from "react";
 import './music.css';
 
-class music extends React.Component {
-  render() {
+const music = () => {
     return (
       <div id="music" class="musicSection">
         <h1 class="musicTitle">Tunnel Vision</h1>
@@ -12,6 +11,6 @@ class music extends React.Component {
       </div>
     )
   }
-}
+
 
 export default music;

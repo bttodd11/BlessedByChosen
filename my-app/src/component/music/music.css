@@ -25,14 +25,14 @@
 }
 
 /* Landscape View */
-@media (min-width: 568px) and (max-width: 824px) {
+@media (min-width: 568px) and (max-width: 739px) {
    .musicSection {
   
    }
 }
 
 /* Tablet View */
-@media (min-width: 825px) and (max-width: 991px) {
+@media (min-width: 740px) and (max-width: 991px) {
    iframe {
       width: 100%;
    }

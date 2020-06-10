@@ -26,12 +26,12 @@
  } 
  
  /* Landscape View */
-  @media (min-width: 568px) and (max-width: 812px) {
+  @media (min-width: 568px) and (max-width: 739px) {
  
  } 
  
  /* Tablet View */
- @media (min-width: 768px) and (max-width: 991px) {
+ @media (min-width: 740px) and (max-width: 991px) {
    .collectionText{
       text-align: center;
       padding-top: 5%;
