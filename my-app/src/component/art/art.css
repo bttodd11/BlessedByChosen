@@ -13,7 +13,6 @@
    .collectionText{
       text-align: center;
       padding-top: 10%;
-      padding-bottom: 5%;
    }
   .collectionSection{
      padding-left: 20%;
@@ -21,6 +20,11 @@
   }
   .seriesText{
    padding-bottom: 2%;
+}
+.collectionPassage{
+   font-size: 10px;
+   width: 80%;
+   text-align: center;
 }
 
  } 
@@ -34,7 +38,7 @@
  @media (min-width: 740px) and (max-width: 991px) {
    .collectionText{
       text-align: center;
-      padding-top: 5%;
+      padding-top: 2%;
    }
   .collectionSection{
      padding-top: 5%;
@@ -44,7 +48,6 @@
   .seriesText{
    padding-bottom: 5%;
 }
- 
  }
  
  /* Desktop */
@@ -55,10 +58,22 @@
       letter-spacing: 10px;
    }
   .collectionSection{
-     padding-top: 5%;
+     padding-top: 2%;
      width: 100%;
      text-align: center;
      background-color: #484848;
+  }
+  .collectionPassage{
+   border-bottom: 1px solid black;
+   margin-bottom: 7%;
+   width: 65%;
+   margin-left: 17%;
+   text-align: center;
+   color: white;
+   opacity: .2;
+  }
+  .collectionPassageText{
+   font-size: 16px;
   }
   .seriesText{
    padding-bottom: 5%;

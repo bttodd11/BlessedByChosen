@@ -21,7 +21,6 @@
       text-align: center;
       padding-bottom: 5%;
    } 
-
 }
 
 /* Landscape View */
@@ -44,7 +43,7 @@
 /* Desktop */
 @media (min-width: 992px) {
   .musicTitle{
-     padding-top: 3%;
+     padding-bottom: 15px;
      letter-spacing: 10px;
   }
 
