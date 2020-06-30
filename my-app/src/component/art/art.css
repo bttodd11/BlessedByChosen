@@ -1,81 +1,114 @@
-.seriesText{
-   font-family: 'Righteous', cursive;
+.seriesText {
+  font-family: "Righteous", cursive;
 }
-.artSection{
-   background-color: #484848;
+.artSection {
+  background-color: #484848;
 }
-.collectionText{
-   font-family: 'Righteous', cursive;
+.collectionText {
+  font-family: "Righteous", cursive;
+  letter-spacing: 9px;
+  text-align: center;
 }
 
 /* Portrait View */
-@media (min-width: 320px) and (max-width: 450px) { 
-   .collectionText{
-      text-align: center;
-      padding-top: 10%;
-   }
-  .collectionSection{
-     padding-left: 20%;
-     padding-top: 5%;
+@media (min-width: 320px) and (max-width: 450px) {
+  .collectionText {
+    text-align: center;
+    padding-top: 10%;
   }
-  .seriesText{
-   padding-bottom: 2%;
-}
-.collectionPassage{
-   font-size: 10px;
-   width: 80%;
-   text-align: center;
+  .collectionSection {
+    padding-left: 20%;
+    padding-top: 5%;
+  }
+  .seriesText {
+    padding-bottom: 2%;
+  }
+  .collectionPassage {
+    font-size: 10px;
+    width: 80%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-bottom: 15%;
+    padding-top: 5%;
+    color: white;
+    opacity: 0.5;
+  }
 }
 
- } 
- 
- /* Landscape View */
-  @media (min-width: 568px) and (max-width: 739px) {
- 
- } 
- 
- /* Tablet View */
- @media (min-width: 740px) and (max-width: 991px) {
-   .collectionText{
-      text-align: center;
-      padding-top: 2%;
-   }
-  .collectionSection{
-     padding-top: 5%;
-     width: 100%;
-     text-align: center;
+/* Landscape View */
+@media (min-width: 568px) and (max-width: 739px) {
+  .collectionText {
+    text-align: center;
+    padding-top: 5%;
   }
-  .seriesText{
-   padding-bottom: 5%;
+  .collectionPassage {
+    font-size: 10px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-bottom: 15%;
+    padding-top: 5%;
+    color: white;
+    opacity: 0.5;
+  }
 }
- }
- 
- /* Desktop */
-  @media (min-width: 992px){
-   .collectionText{
-      text-align: center;
-      padding-top: 5%;
-      letter-spacing: 10px;
-   }
-  .collectionSection{
-     padding-top: 2%;
-     width: 100%;
-     text-align: center;
-     background-color: #484848;
+
+/* Tablet View */
+@media (min-width: 740px) and (max-width: 991px) {
+  .collectionText {
+    text-align: center;
+    padding-top: 2%;
   }
-  .collectionPassage{
+  .collectionSection {
+    padding-top: 5%;
+    width: 100%;
+    text-align: center;
+  }
+  .collectionPassage {
    border-bottom: 1px solid black;
+   border-top: 1px solid black;
    margin-bottom: 7%;
+   padding-top: 2%;
    width: 65%;
    margin-left: 17%;
    text-align: center;
    color: white;
-   opacity: .2;
+   opacity: 0.5;
+ }
+  .seriesText {
+    padding-bottom: 5%;
   }
-  .collectionPassageText{
-   font-size: 16px;
-  }
-  .seriesText{
-   padding-bottom: 5%;
 }
- } 
+
+/* Desktop */
+@media (min-width: 992px) {
+  .collectionText {
+    text-align: center;
+    padding-top: 5%;
+    letter-spacing: 10px;
+  }
+  .collectionSection {
+    padding-top: 2%;
+    width: 100%;
+    text-align: center;
+    background-color: #484848;
+  }
+  .collectionPassage {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-bottom: 7%;
+    padding-top: 2%;
+    width: 65%;
+    margin-left: 17%;
+    text-align: center;
+    color: white;
+    opacity: 0.5;
+  }
+  .collectionPassageText {
+    font-size: 16px;
+  }
+  .seriesText {
+    padding-bottom: 5%;
+  }
+}
