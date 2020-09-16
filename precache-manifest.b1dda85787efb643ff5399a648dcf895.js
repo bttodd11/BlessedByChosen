@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3212eb9eecd22248951484f04f73c3a0",
+    "revision": "4fc1f1cf6e9f7513773ff69fac43cfb7",
     "url": "/BlessedByChosen/index.html"
   },
   {
-    "revision": "2ea3af3ea595ba7494ab",
+    "revision": "a424af59af56a394629d",
     "url": "/BlessedByChosen/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "6ad16c8fd4457e12bea0",
-    "url": "/BlessedByChosen/static/css/main.0a6070c3.chunk.css"
+    "revision": "9b3c86993a52a7e7d2ff",
+    "url": "/BlessedByChosen/static/css/main.03c590e4.chunk.css"
   },
   {
-    "revision": "2ea3af3ea595ba7494ab",
-    "url": "/BlessedByChosen/static/js/2.29855264.chunk.js"
+    "revision": "a424af59af56a394629d",
+    "url": "/BlessedByChosen/static/js/2.eaf51b1e.chunk.js"
   },
   {
     "revision": "b396b9c7cb89986c0edcd31803c9a394",
-    "url": "/BlessedByChosen/static/js/2.29855264.chunk.js.LICENSE.txt"
+    "url": "/BlessedByChosen/static/js/2.eaf51b1e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6ad16c8fd4457e12bea0",
-    "url": "/BlessedByChosen/static/js/main.03696821.chunk.js"
+    "revision": "9b3c86993a52a7e7d2ff",
+    "url": "/BlessedByChosen/static/js/main.08300784.chunk.js"
   },
   {
     "revision": "cd24776eb1e958ccbe2a",
     "url": "/BlessedByChosen/static/js/runtime-main.f083f820.js"
+  },
+  {
+    "revision": "f4b39d07084bf0df15e2f16b150f3115",
+    "url": "/BlessedByChosen/static/media/albumCover.f4b39d07.JPG"
   },
   {
     "revision": "6a021f9c96b8fce72535d564226a0fbd",
