@@ -11,7 +11,7 @@
       padding-top: 70%;
       padding-bottom: 30%;
       font-size: 70px;
-      letter-spacing: 25px;
+      letter-spacing: 15px;
       text-align: center;
       color: white;
       opacity: .1;
@@ -42,8 +42,8 @@
 /* Tablet View */
 @media (min-width: 740px) and (max-width: 991px) {
   .title {
-    padding-top: 35%;
-    padding-bottom: 15%;
+    padding-top: 5%;
+    padding-bottom: 3%;
     font-size: 150px;
     letter-spacing: 35px;
     text-align: center;

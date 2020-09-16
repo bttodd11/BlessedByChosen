@@ -9,6 +9,9 @@
   letter-spacing: 9px;
   text-align: center;
 }
+.passageText {
+  font-family: 'Bebas Neue', cursive;
+}
 
 /* Portrait View */
 @media (min-width: 320px) and (max-width: 450px) {
@@ -34,6 +37,10 @@
     color: white;
     opacity: 0.5;
   }
+  .passageText{
+    font-size: 25px;
+    width: 100%;
+  }
 }
 
 /* Landscape View */
@@ -41,6 +48,7 @@
   .collectionText {
     text-align: center;
     padding-top: 5%;
+    padding-bottom: 4%;
   }
   .collectionPassage {
     font-size: 10px;
@@ -52,6 +60,10 @@
     color: white;
     opacity: 0.5;
   }
+  .passageText{
+    font-size: 25px;
+    width: 100%;
+  }
 }
 
 /* Tablet View */
@@ -59,6 +71,7 @@
   .collectionText {
     text-align: center;
     padding-top: 2%;
+    padding-bottom: 4%;
   }
   .collectionSection {
     padding-top: 5%;
@@ -78,6 +91,10 @@
  }
   .seriesText {
     padding-bottom: 5%;
+  }
+  .passageText{
+    font-size: 25px;
+    width: 100%;
   }
 }
 
@@ -99,7 +116,7 @@
     border-top: 1px solid black;
     margin-bottom: 7%;
     padding-top: 2%;
-    width:50%;
+    width: 50%;
     margin-left: 25%;
     text-align: center;
     color: white;
@@ -107,6 +124,11 @@
   }
   .collectionPassageText {
     font-size: 16px;
+  }
+  .passageText{
+    font-size: 30px;
+    letter-spacing: 5px;
+    width: 100%;
   }
   .seriesText {
     padding-bottom: 5%;
