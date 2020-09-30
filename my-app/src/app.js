@@ -12,10 +12,16 @@ import PreLoader from "./component/preLoader/preLoader";
 
 
 
+
 const App = () => {
 
+let [ preLoader, removePreloader] = useState(true);
 
 
+useEffect(() => {
+  
+  setTimeout(() => removePreloader(false), 100)
+},[])
 
 
   const scrollTo = e => {
@@ -30,13 +36,16 @@ const App = () => {
   
 
   return (
+    
     <body>
+      {preLoader ? <PreLoader /> :
     <div className="hero">
       <Nav scrollTo={e => scrollTo(e)} />
       <Title />
       <Music />
       <Art />
     </div>
+}
     </body>
   );
 };
