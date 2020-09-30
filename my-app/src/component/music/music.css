@@ -16,6 +16,20 @@
 .musicSection {
    background-color: #484848;
 }
+.linkSection{
+   border: 1px solid;
+   padding: 5px;
+   width: 50%;
+   margin-left: 25%;
+   margin-top: 15%;
+   border-radius: 25px;
+   height: 50px;
+   font-size: 18px;
+   background-color: #484848;
+   text-align: center;
+   font-family: 'Righteous', cursive;
+   letter-spacing: 8px;
+}
 /* Portrait View */
 @media (min-width: 320px) and (max-width: 450px) {
    iframe {
@@ -23,13 +37,14 @@
    }
    .musicTitle {
       text-align: center;
-      font-size: 20px;
+      font-size: 30px;
       font-weight: bolder;
       padding-bottom: 3%;
    }
    .tunnelVision{
       padding-top: 15%;
    }
+   
 }
 
 /* Landscape View */
@@ -73,13 +88,19 @@
    width: 450px;
 }
    .linkSection{
-      border: 1px solid #222121;
+      border: 1px solid;
       padding: 25px;
-      width: 35%;
-      margin: auto;
+      width: 20%;
+      margin: 0;
+      margin-left: 40%;
       margin-top: 5%;
       border-radius: 25px;
-      height: 135px;
+      height: 80px;
+      font-size: 22px;
+      background-color: #484848;
+      text-align: center;
+      font-family: 'Righteous', cursive;
+      letter-spacing: 10px;
    }
    .linkTitle{
       font-size: 25px;
@@ -88,13 +109,10 @@
       font-family: 'Righteous', cursive;
    }
    .linkDownload{
-      margin-top: 5%;
-      font-size: 20px;
+      font-size: 35px;
       letter-spacing: 10px;
       text-align: center;
       font-family: 'Righteous', cursive;
-      color: #484848; 
-   
    }
 
   .tunnelVision{
