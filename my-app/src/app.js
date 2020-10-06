@@ -38,14 +38,12 @@ useEffect(() => {
   return (
     
     <body>
-      {preLoader ? <PreLoader /> :
     <div className="hero">
       <Nav scrollTo={e => scrollTo(e)} />
       <Title />
       <Music />
       <Art />
     </div>
-}
     </body>
   );
 };
