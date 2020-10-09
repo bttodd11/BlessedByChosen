@@ -1,0 +1,44 @@
+
+.preLoadImg{
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+ /* Portrait View */
+ @media (min-width: 315px) and (max-width: 450px) { 
+    .preLoadImg{
+        background-position: center;
+        margin-top: 45%;
+        height: 50vh;
+        width: 100vw;
+    }
+ }
+
+  /* Landscape View */
+  @media (min-width: 568px) and (max-width: 739px) {
+
+  }
+
+    /* Tablet View */
+ @media (min-width: 740px) and (max-width: 991px) {
+
+ }
+
+  /* Desktop */
+ @media (min-width: 992px){
+    .preLoadImg{
+        background-position: center;
+        height: 100vh;
+        width: 50vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ 
+ }

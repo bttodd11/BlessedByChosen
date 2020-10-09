@@ -15,6 +15,7 @@
 .musicSection {
   background-color: #484848;
 }
+
 .linkSection {
   border: 1px solid;
   padding: 5px;
@@ -47,6 +48,7 @@
     font-size: 30px;
     font-weight: bolder;
     padding-bottom: 3%;
+    padding-top: 8%;
   }
   .tunnelVision {
     padding-top: 15%;
@@ -60,6 +62,7 @@
 /* Landscape View */
 @media (min-width: 568px) and (max-width: 739px) {
   .musicSection {
+    background-color: #484848;
   }
   .musicTitle {
     text-align: center;
@@ -94,7 +97,7 @@
   .musicTitle {
    text-align: center;
    font-size: 45px;
-   padding-top: 3%;
+   padding-top: 8%;
    font-weight: bolder;
    padding-bottom: 4%;
  }

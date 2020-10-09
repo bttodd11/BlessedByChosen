@@ -5,7 +5,7 @@ body {
      sans-serif;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
-   background-color: #484848 !important;
+   background-color: black !important;
  }
  
  code {
@@ -20,7 +20,7 @@ body {
      position: relative;
      background-size: cover;
      background-repeat: no-repeat;
-     height: 100vh;
+     height: 110vh;
      width: 100vw;
      padding: 0;
      background-color: #484848;
@@ -35,7 +35,7 @@ body {
      position: relative;
      background-size: cover;
      background-repeat: no-repeat;
-     height: 100vh;
+     height: 120vh;
      width: 100vw;
      padding: 0;
      background-color: #484848;
@@ -67,7 +67,7 @@ body {
      position: relative;
      background-size: cover;
      background-repeat: no-repeat;
-     height: 100vh;
+     height: 120vh;
      width: 100vw;
      padding: 0;
      background-color: #484848;
