@@ -9,7 +9,7 @@ const music = () => {
         <div class="musicContent">
       <img class="albumCover"  src={AlbumCover} />
         </div>
-       <a href=""> <button class="linkSection" href="www.google.com">Download</button></a>
+       <a href="https://musics.link/timewilltell?fbclid=IwAR3ROCCfXgJuzxrcMPtesfnJGosURO1cI7zYccMRf5KlRu1Q2p8AmhveCm8"> <button class="linkSection" href="www.google.com">Download</button></a>
        <div class="videoSection">
         <h1 class="musicTitle tunnelVision">Tunnel Vision</h1>
         <div class="musicContent">
