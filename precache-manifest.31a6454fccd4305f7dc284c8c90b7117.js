@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2c877832fe062b541e0da8d79614db6f",
+    "revision": "7466512629f1f0c3ec9af6ad18759d60",
     "url": "/BlessedByChosen/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BlessedByChosen/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "49918056e2a7c1434d3b",
+    "revision": "a9cc9592b167d5e351b1",
     "url": "/BlessedByChosen/static/css/main.1238f2ec.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BlessedByChosen/static/js/2.8d6a62c0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "49918056e2a7c1434d3b",
-    "url": "/BlessedByChosen/static/js/main.49456e71.chunk.js"
+    "revision": "a9cc9592b167d5e351b1",
+    "url": "/BlessedByChosen/static/js/main.ffdb3628.chunk.js"
   },
   {
     "revision": "cd24776eb1e958ccbe2a",
