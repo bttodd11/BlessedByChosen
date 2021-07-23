@@ -7,6 +7,7 @@ import Title from "./component/title/title";
 import Music from "./component/music/music";
 import Art from "./component/art/art";
 import PreLoader from "./component/preLoader/preLoader";
+import hero from "./img/heroVideo.mov";
 import $ from 'jquery';
 
 
@@ -25,12 +26,12 @@ const App = () => {
 
   const removePreLoader = () => {
     $('.preLoader').hide();
-    $('.hero').show();
+    $('.heroBackground').show();
 
   }
   
   $(document).ready(function(){
-    $('.hero').hide();
+    $('.heroBackground').hide();
     $(window).on('load', function(){
       setTimeout(removePreLoader, 3000)
     }
@@ -44,19 +45,23 @@ const App = () => {
   
 
   return (
-    
     <body>
-      <div className="preLoader">
-    <PreLoader />
-      </div>
-    <div className="hero">
-      <Nav scrollTo={e => scrollTo(e)} />
-      <Title />
-      <Music />
-      <Art />
+    <div className="preLoader">
+  <PreLoader />
     </div>
+  <div className="heroBackground">
+  <video className="hero" autoPlay loop muted preload="auto">
+    <source src={hero} type="video/mp4"/>
+    </video>
+    <Nav scrollTo={e => scrollTo(e)} />
+    <Title />
+    <Music />
+    <Art />
+  </div>
 
-    </body>
+  </body>
+
+
   );
 };
 

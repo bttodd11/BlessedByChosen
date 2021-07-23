@@ -2,7 +2,7 @@
   font-family: 'Righteous', cursive;
 }
 .titleSection{
-  height: 100vh;
+  height: 90vh;
 }
 
 /* Portrait View */
@@ -14,7 +14,7 @@
       letter-spacing: 15px;
       text-align: center;
       color: white;
-      opacity: .1;
+      opacity: .7;
     }
     .icons {
       height: 40px;
@@ -31,7 +31,7 @@
     letter-spacing: 35px;
     text-align: center;
     color: white;
-    opacity: .1;
+    opacity: .7;
   }
   .icons {
     height: 40px;
@@ -48,7 +48,7 @@
     letter-spacing: 35px;
     text-align: center;
     color: white;
-    opacity: .1;
+    opacity: .7;
   }
   .icons {
     height: 50px;
@@ -65,7 +65,7 @@
     letter-spacing: 35px;
     text-align: center;
     color: white;
-    opacity: .1;
+    opacity: .7;
   }
   .icons {
     height: 40px;

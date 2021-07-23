@@ -2,7 +2,7 @@
 .navbar-brand{
    color: white;
    font-family: 'Righteous', cursive;
-   opacity: .3;
+   opacity: .8;
 }
 .bg-light {
    background-color: transparent!important;
@@ -10,5 +10,5 @@
 .nav-item{
    color: white !important;
    font-family: 'Righteous', cursive;
-   opacity: .3;
+   opacity: .8;
 }

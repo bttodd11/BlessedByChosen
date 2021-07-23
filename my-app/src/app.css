@@ -12,34 +12,37 @@ body {
    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
      monospace;
  }
+ .heroBackGround {
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 110vh;
+  padding: 0;
+
+ }
  
  /* Portrait View */
   @media (min-width: 315px) and (max-width: 450px) { 
    .hero{
-     background: url("./img/backGroundsm.jpg");
-     position: relative;
+     position: absolute;
      background-size: cover;
+     background-position: center;
      background-repeat: no-repeat;
-     height: 110vh;
-     width: 100vw;
+     height: 100vh;
      padding: 0;
-     background-color: #484848;
-     background-blend-mode: multiply;
    }
  } 
  
  /* Landscape View */
   @media (min-width: 568px) and (max-width: 739px) {
    .hero{
-     background: url("./img/bgLandscape.jpg");
-     position: relative;
+     position: absolute;
      background-size: cover;
+     background-position: center;
      background-repeat: no-repeat;
-     height: 120vh;
-     width: 100vw;
+     height: 110vh;
      padding: 0;
-     background-color: #484848;
-     background-blend-mode: multiply;
    }
  
  } 
@@ -47,15 +50,12 @@ body {
  /* Tablet View */
  @media (min-width: 740px) and (max-width: 991px) {
    .hero{
-     background: url("./img/backGroundImage.jpg");
-     position: relative;
+     position: absolute;
      background-size: cover;
+     background-position: center;
      background-repeat: no-repeat;
      height: 120vh;
-     width: 120vw;
      padding: 0;
-     background-color: #484848;
-     background-blend-mode: multiply;
    }
  
  }
@@ -63,36 +63,17 @@ body {
  /* Desktop */
   @media (min-width: 992px){
    .hero{
-     background: url("./img/backGroundImage.jpg");
-     position: relative;
-     background-size: cover;
-     background-repeat: no-repeat;
-     height: 120vh;
-     width: 100vw;
-     padding: 0;
-     background-color: #484848;
-     background-blend-mode: multiply;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 110vh;
+    padding: 0;
    }
+
  
  } 
  
  
- /* Portrait View */
- /* @media (min-width: 320px) and (max-width: 450px) { 
- } */
- 
- /* Landscape View */
- /* @media (min-width: 568px) and (max-width: 812px) {
- 
- } */
- 
- /* Tablet View */
- /* @media (min-width: 768px) and (max-width: 991px) {
- 
- } */
- 
- /* Desktop */
- /* @media (min-width: 992px){
- 
- } */
+
  
