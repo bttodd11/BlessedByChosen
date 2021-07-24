@@ -21,7 +21,18 @@ body {
   padding: 0;
 
  }
- 
+ .hero {
+   object-fit: cover;
+ }
+ .videoContainer{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+ }
  /* Portrait View */
   @media (min-width: 315px) and (max-width: 450px) { 
    .hero{
@@ -67,8 +78,11 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 110vh;
+    height: 100vh;
     padding: 0;
+    width: 100vw;
+    top: 0;
+    left: 0;
    }
 
  

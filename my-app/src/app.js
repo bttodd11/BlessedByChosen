@@ -50,9 +50,11 @@ const App = () => {
   <PreLoader />
     </div>
   <div className="heroBackground">
-  <video className="hero" autoPlay loop muted preload="auto">
+    <div className="videoContainer">
+  <video autoPlay muted loop playsInline className="hero">
     <source src={hero} type="video/mp4"/>
     </video>
+    </div>
     <Nav scrollTo={e => scrollTo(e)} />
     <Title />
     <Music />
