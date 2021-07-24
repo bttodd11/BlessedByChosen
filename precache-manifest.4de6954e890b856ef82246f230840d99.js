@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e9d8468d76b3938c479d025e28679747",
+    "revision": "52e7517d44190b8c5331c4e407d80b4e",
     "url": "/BlessedByChosen/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BlessedByChosen/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "a241c808ef3f9de98c7b",
-    "url": "/BlessedByChosen/static/css/main.e140ece3.chunk.css"
+    "revision": "bdb04d075c5d9518e6b1",
+    "url": "/BlessedByChosen/static/css/main.369fb4cd.chunk.css"
   },
   {
     "revision": "d0e1d5176571c3493d93",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BlessedByChosen/static/js/2.106f495a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a241c808ef3f9de98c7b",
-    "url": "/BlessedByChosen/static/js/main.4fd23a1f.chunk.js"
+    "revision": "bdb04d075c5d9518e6b1",
+    "url": "/BlessedByChosen/static/js/main.28bf518e.chunk.js"
   },
   {
     "revision": "cd24776eb1e958ccbe2a",
