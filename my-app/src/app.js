@@ -38,12 +38,6 @@ const App = () => {
     )
   })
 
- 
-
-  
-  
-  
-
   return (
     <body>
     <div className="preLoader">
